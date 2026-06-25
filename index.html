@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Bevear</title>
+  <meta name="description" content="Bevear Privacy Policy — how we collect, use, and protect your data." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #fafafa;
+      color: #1a1a2e;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f5a623 0%, #e8834a 100%);
+      padding: 40px 24px 32px;
+      text-align: center;
+      color: #fff;
+    }
+
+    header .logo { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+    header .tagline { font-size: 0.95rem; opacity: 0.88; margin-top: 4px; }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+
+    h1 { font-size: 1.9rem; font-weight: 800; margin-bottom: 4px; }
+    .meta { color: #6b7280; font-size: 0.875rem; margin-bottom: 40px; }
+
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #d97706;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #f3e8d0;
+    }
+
+    p { margin-bottom: 12px; color: #374151; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { color: #374151; margin-bottom: 6px; }
+
+    .badge {
+      display: inline-block;
+      background: #fef3c7;
+      color: #92400e;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 99px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      color: #9ca3af;
+      font-size: 0.85rem;
+      padding: 24px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #111827; color: #f9fafb; }
+      p, li { color: #d1d5db; }
+      h2 { color: #fbbf24; border-bottom-color: #374151; }
+      .meta { color: #9ca3af; }
+      .badge { background: #451a03; color: #fcd34d; }
+      footer { border-top-color: #374151; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🦫 Bevear</div>
+  <div class="tagline">Your smart personal budget companion</div>
+</header>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: June 25, 2026</p>
+  <span class="badge">Package: com.bevear.myapp</span>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>Welcome to Bevear ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains what information we collect, how we use it, and what rights you have in relation to it.</p>
+    <p>By using the Bevear mobile application ("App"), you agree to the collection and use of information in accordance with this policy.</p>
+  </section>
+
+  <section>
+    <h2>2. Information We Collect</h2>
+    <p>We collect the following types of information:</p>
+    <ul>
+      <li><strong>Account Information:</strong> When you create an account, we collect your email address, display name, and username.</li>
+      <li><strong>Financial Data:</strong> Transaction records, wallet information, budgets, wishlists, goals, pay-later entries, and debt records that you manually enter. This data is stored securely in your personal Firebase Firestore database.</li>
+      <li><strong>Authentication Data:</strong> We use Firebase Authentication to manage your account. If you sign in with Google, we receive your basic profile information (name and email) from Google.</li>
+      <li><strong>Camera Access:</strong> Used only for receipt scanning (AI-powered transaction logging). Images are sent to Google's Generative AI API for processing and are not stored on our servers.</li>
+      <li><strong>Device Information:</strong> Basic device type and OS version for crash reporting and app improvement.</li>
+      <li><strong>Backup Data:</strong> If you choose to back up data to Google Drive, your financial data is stored in your own Google Drive account in an app-specific folder.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>Provide, maintain, and improve the App</li>
+      <li>Create and manage your account</li>
+      <li>Store and sync your financial data across devices</li>
+      <li>Process your feedback and support requests</li>
+      <li>Send important service-related local notifications (budget alerts, bill reminders, goal milestones)</li>
+      <li>Detect and prevent fraud or abuse</li>
+      <li>Comply with legal obligations</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Data Storage &amp; Security</h2>
+    <p>Your data is stored securely using Google Firebase services, which employ industry-standard encryption and security measures.</p>
+    <ul>
+      <li>Data in transit is encrypted using TLS/SSL.</li>
+      <li>Data at rest is encrypted on Firebase servers.</li>
+      <li>Each user's data is isolated and can only be accessed with proper authentication.</li>
+      <li>Local data on your device is stored in an SQLite database (Drift).</li>
+    </ul>
+    <p>While we strive to protect your data, no method of electronic storage is 100% secure. We encourage you to use strong passwords and enable biometric lock for added security.</p>
+  </section>
+
+  <section>
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell, trade, or rent your personal information to third parties. Your financial data is yours and stays yours.</p>
+    <p>We may share information only in the following circumstances:</p>
+    <ul>
+      <li>With your consent</li>
+      <li>To comply with legal obligations or valid legal processes</li>
+      <li>To protect our rights, privacy, safety, or property</li>
+      <li>With service providers who assist in operating the App (Firebase, Google Cloud, Google Generative AI), who are bound by strict data protection agreements</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Google Drive Backup</h2>
+    <p>If you use the backup feature, your data is stored in your personal Google Drive account. We access only the app-specific data folder and do not read or modify any other files. You can revoke this access at any time through your Google Account settings.</p>
+  </section>
+
+  <section>
+    <h2>7. Local Notifications</h2>
+    <p>Bevear uses local device notifications (not push notifications through a server) to remind you about bill due dates, budget thresholds, savings goal milestones, and daily transaction summaries. No notification content is transmitted to external servers.</p>
+  </section>
+
+  <section>
+    <h2>8. Your Rights</h2>
+    <ul>
+      <li><strong>Access:</strong> View all data stored in your account through the App.</li>
+      <li><strong>Export:</strong> Export your transaction data as a CSV file via Settings.</li>
+      <li><strong>Delete:</strong> Delete your account and all associated data at any time through Settings → Account → Delete Account.</li>
+      <li><strong>Correction:</strong> Update your profile information at any time.</li>
+    </ul>
+    <p>When you delete your account, all your data is permanently removed from our servers within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>9. Children's Privacy</h2>
+    <p>The App is not directed to children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last updated" date at the top of this page. Continued use of the App after changes constitutes your acceptance of the revised policy.</p>
+  </section>
+
+  <section>
+    <h2>11. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
+    <ul>
+      <li>Through the <strong>"Send Feedback"</strong> feature in the App (Settings → Send Feedback)</li>
+      <li>By email at: <a href="mailto:support@bevear.app">support@bevear.app</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Bevear. All rights reserved. &nbsp;·&nbsp;
+  <a href="mailto:support@bevear.app" style="color: #9ca3af;">support@bevear.app</a>
+</footer>
+
+</body>
+</html>
